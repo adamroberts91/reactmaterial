@@ -1,12 +1,10 @@
-import React, { Component } from 'react';
+import React from 'react';
 import '../styles/App.css';
-import Products from './Products.js';
-import CheckCredits from './CheckCredits';
+import Routing from './Routing';
 
 const App = () => (
     <div>
-        <Products />
-        <CheckCredits />
+        <Routing />
     </div>
 );
 
